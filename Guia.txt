@@ -1,0 +1,13 @@
+<!-- Todo List:
+
+Guia:
+
+1) Debe tener un sitio para escribir la tarea.
+2) Se debe poder seleccionar un color.
+3) Se debe poder colocar una fecha. 
+4) Tiene que tener validación de datos. (Obligatorio: Nombre de tarea, fecha y si la
+fecha es anterior a hoy no se debe poder agregar la tarea)
+5) Se debe poder eliminar la tarea.
+6) Se debe añadir al localSorage para poder tener la persistencia de los datos.
+7) La tarea debe tener un cronometro qeu baje y finalize al llegar a la fecha puesta.
+-->

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/a40ecaeca8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+</head>
+<body>
+    <h1 class="title">Práctica 1 - Todo List</h1>
+
+    <form class="form" id="form">
+        <input type="text" class="task" id="task" placeholder="type a task">
+        <div class="content-radio" id="content-radio">
+            <input id="red" type="radio" class="form__input-radio" name="color" checked>
+            <label for="red" class="form__label form__label--red"></label>
+
+            <input id="orange" type="radio" class="form__input-radio" name="color">
+            <label for="orange" class="form__label form__label--orange"></label>
+
+            <input id="green" type="radio" class="form__input-radio" name="color">
+            <label for="green" class="form__label form__label--green"></label>
+        </div>
+        <input type="datetime-local" class="datetime-local" id="datetime-local">
+        <button class="btn" id="btn"><i class="fas fa-pencil-alt"></i></button>
+    </form>
+    <section class="content-list">
+        <p class="text" id="text"></p>
+
+        <ul class="list" id="list">
+
+            <!-- <li class="list__item">
+                <p class="text-task">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero molestias neque dolor dicta optio saepe error veniam in. At harum sit consectetur eligendi nam sint consequuntur laborum hic sequi porro?</p>
+                <div class="content-timer">
+                    <div class="timer">
+                        <div class="timer__part">
+                            <p></p>
+                            <span>D</span>
+                        </div>
+                        <div class="timer__part">
+                            <p></p>
+                            <span>H</span>
+                        </div>
+                        <div class="timer__part">
+                            <p></p>
+                            <span>M</span>
+                        </div>
+                        <div class="timer__part">
+                            <p></p>
+                            <span>S</span>
+                        </div>
+                    </div>
+                    <div class="deleted"></div>
+                </div>
+            </li> -->
+
+        </ul>
+
+    </section>
+    <script src="js/js.js"></script>
+</body>
+</html>
+
+<!-- Todo List:
+
+Guia:
+
+1) Debe tener un sitio para escribir la tarea.
+2) Se debe poder seleccionar un color.
+3) Se debe poder colocar una fecha. 
+4) Tiene que tener validación de datos. (Obligatorio: Nombre de tarea, fecha y si la
+fecha es anterior a hoy no se debe poder agregar la tarea)
+5) Se debe poder eliminar la tarea.
+6) Se debe añadir al localSorage para poder tener la persistencia de los datos.
+7) La tarea debe tener un cronometro qeu baje y finalize al llegar a la fecha puesta.
+-->
